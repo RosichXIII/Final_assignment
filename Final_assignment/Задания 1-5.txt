@@ -1,0 +1,38 @@
+Задание 1
+
+mkdir temp_nursery
+cd ~/temp_nursery
+cat > pets
+	dogs
+	cats
+	hamsters
+cat > beasts_of_burden
+	horses
+	camels
+	donkeys
+cat pets beasts_of_burden > domesticated_animals
+cat domesticated_animals
+mv domesticated animals human_friends
+ls -ali
+
+Задание 2
+
+cd ..
+mkdir nursery
+cd ~/temp_nursery
+mv human_friends ~/nursery
+cd ~/nursery
+ls -ali
+
+Задание 3
+
+sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb    
+sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb    
+sudo apt-get update    
+sudo apt-get install mysql-server    
+
+Задание 4
+
+sudo wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb    
+sudo dpkg -i docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb    
+sudo dpkg -r docker-ce-cli    
